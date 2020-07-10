@@ -1,0 +1,38 @@
+/* 21861104 이혜원 */
+
+aside #sub_menu{
+  width: 300px;
+  height: 320px;
+  margin-top: 15px;
+  background-image: url("../img/aside.jpg");
+  background-repeat: no-repeat;
+  list-style-type: none;
+}
+
+aside #sub_menu ul{
+  list-style-type: none;
+  padding: 80px 0 0 30px;}
+
+aside #sub_menu li{
+  margin: 10px 0 0 0;}
+
+aside #sub_menu a:link{
+  text-decoration: none;
+  font-size: 14px;
+  color:#3a3a3a;}
+
+aside #sub_menu a:hover{
+  text-decoration: none;
+  font-size: 14px;
+  color:#3a3a3a;
+  font-weight: bold;}
+
+aside #sub_menu a:visited{
+  text-decoration: none;
+  font-size: 14px;
+  color:#3a3a3a;}
+
+aside #sub_menu a:active{
+  text-decoration: none;
+  font-size: 14px;
+  color:#3a3a3a;}

@@ -1,0 +1,12 @@
+/* portfolio css */
+body {
+    background-color: #efefef;
+    color: black;
+    /*    line-height: 30px;*/
+}
+/* 본문 내용 배치 */
+#wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}

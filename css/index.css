@@ -1,0 +1,80 @@
+.conB {
+
+
+    padding-left: 410px;
+
+    display: inline-block;
+    margin-top: 250px;
+    float: left;
+    text-align: center;
+
+}
+.conB .container .text {
+    padding: 20px;
+    float: left;
+
+}
+
+.conB .icon {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    font-size: 34px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 10%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: #ddd;
+    color: #fff;
+
+}
+.conB .container .text .icon:hover {
+    color: #a572a6;
+    transform: scale(1.13);
+    transition: all 0.5s;
+}
+.conB .container .text h3  {
+
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-style: outset;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+.conB .container .text p {
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.conB .container .text a {
+    color: plum;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.conB .container .text a:hover, a:visited {
+    color: #a572a6;
+}
+/* 저작권 */
+        #footer {
+            padding-top: 30px;
+            margin-left: 1000px;
+            margin-bottom: 30px;
+        }
+        #footer icon {
+          float: right;
+          padding-top: 15px;
+          margin-right: 70px;
+
+        }
+        #footer p {
+            font-size: 14px;
+            color: #666666;
+            margin-left: 200px;
+            margin-top: 600px;
+        }

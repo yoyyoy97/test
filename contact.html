@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Noto+Sans+KR" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+</head>
+<body>
+   <!-- 로고 -->
+   <header>
+     <nav id="nav-menu">
+         <div class="nav-content">
+             <ul class="nav-list">
+                 <li><a href="index_21861104.html"><span id="logo">hye.o.ny</span></a></li><li>
+                   <ul>
+                     <li>
+                     <a href="./hw.html"><span>Programming</span></a></li><li>
+                     <a href="./work2.html"><span>Planning / Design</span></a></li><li>
+                     <a href="./about.html"><span>About</span></a></li><li>
+                     <a href="./contact.html"><span>Contact</span></a></li><li>
+             </ul>
+         </div>
+     </nav>
+   </header>
+
+
+    <!-- float 해제 -->
+    <div class="clear"></div>
+    <!--    본문 내용 시작    -->
+      <div id="wrapper">
+
+<!--          <div id="form">-->
+        <div id="contact" >
+           <h2>Contact</h2>
+          <!--  폼 화면 시작  -->
+             <form id="contact-form" methond="post" action="#" >
+
+                  <table border="0">
+                    <tr>
+                        <td>이름</td>
+                        <td><input type="text" name="uid"><br></td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td><input type="password" name="upw"></td>
+                    </tr>
+                    <tr>
+                        <td>이메일</td>
+                        <td> <input type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>@<select name="email" id="rel_site" onchange="window.open(value, '_blank');">
+                                <option value="http://www.google.com">구글</option>
+                                <option value="http://www.naver.com">네이버</option>
+                                <option value="http://www.daum.net">다음</option>
+                                <option value="">직접입력</option>
+                            </select>
+                            <p>사이트를 선택하면, 새로운 페이지로 해당 사이트가 열립니다.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>제목</td>
+                        <td><input type="title" name="upw"></td>
+                    </tr>
+                    <tr>
+                        <td>내용</td>
+                        <td><textarea rows='6' cols='50'></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="전송" class="button">
+                        <input type="reset" value="재설정" class="button"></td>
+                    </tr>
+                </table>
+            </form>
+          <!--  폼 화면 끝  -->
+         </div>
+      </div>
+   <!-- 저작권 -->
+    <footer>
+        <div id="footer">
+            <p>
+                copyright &copy; <a href="index_21861104.html" class="site">Hye.O.ny</a>All rights reserved.
+            </p>
+            <span>EMAIL : yoyyoy1213@naver.com</span>
+            <span>PHONE : +82) 01048938660</span>
+        </div>
+    </footer>
+</body>
+</html>

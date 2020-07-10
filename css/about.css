@@ -1,0 +1,18 @@
+
+.p1 {
+
+  display: inline-block;
+
+}
+/* 저작권 */
+        #footer {
+            padding-top: 30px;
+            margin-left: 1000px;
+            margin-bottom: 30px;
+        }
+        #footer icon {
+          float: right;
+          padding-top: 30px;
+          margin-right: 70px;
+
+        }

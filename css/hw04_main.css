@@ -1,0 +1,131 @@
+/* 메인 컨텐츠 */
+section#main {
+  width: 990px;
+  margin: auto;
+}
+/* 좌측 카테고리, 메인이미지, 공지사항/주간 이벤트 */
+section#cat1 {
+  width: 215px;
+  float: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+section#cat1 #cat_title {
+  padding: 12px;
+  background-color: #649fcc;
+  color: #ffffff;
+  text-align: center;
+}
+section#cat1 li {
+  padding: 7px 0 7px 30px;
+  border-bottom: solid 1px #cccccc;
+  color: #666666;
+
+}
+section#cat2 {
+  float: left;
+  margin-top: 15px;
+}
+section#cat3 {
+  width: 236px;
+  float: left;
+  margin-top: 15px;
+}
+section#cat3 #latest_notice {
+  width: 239px;
+  height: 161px;
+  background-image: url("../img04/latest_notice.png");
+  background-repeat: no-repeat;
+}
+section#cat3 #latest_notice ul {
+  padding: 42px 0 0 30px;
+  list-style-image: url("../img04/blue_dot.png");
+}
+section#cat3 #week_event {
+  width: 239px;
+  height: 191px;
+  margin-top: 11px;
+  background-image: url("../img04/week_event.png");
+  background-repeat: no-repeat;
+}
+section#cat3 #week_event img {
+  margin: 58px 0 0 22px;
+}
+
+/* 스페셜 숍 */
+section#special_shop {
+    width:592px;
+    height:389px;
+    margin-top:0px;
+
+    float:left;
+    background-image:url("../img04/special_shop.png");
+    background-repeat:no-repeat;
+}
+section#special_shop ul {
+    margin:60px 0 0 25px;
+}
+section#special_shop li {
+    display:inline;
+    margin:0 2px;
+}
+section#special_shop img {
+    padding:20px;
+    border: solid 1px #ffffff;
+}
+section#special_banner {
+    float:left;
+    margin:0px 0 0 5px;
+}
+section#special_banner div {
+    width:392px;
+    height:129px;
+    margin-top:1px;
+}
+
+section#special_banner #banner1 {
+    background-image:url("../img04/best.png");
+    background-repeat:no-repeat;
+}
+section#special_banner #banner2 {
+    background-image:url("../img04/point.png");
+    background-repeat:no-repeat;
+}
+section#special_banner #banner3 {
+    background-image:url("../img04/about.png");
+    background-repeat:no-repeat;
+}
+section#special_banner ul {
+    padding:15px 0 0 220px;
+}
+section#special_banner li {
+    display:inline;
+}
+section#new {
+    height:650px;
+    margin-top:20px;
+    border-top:solid 2px #b9b9b9;
+}
+section#new h3 {
+    margin:500px 0 0 35px;
+}
+section#new h3 span{
+    color:#d01b30;
+}
+section#new .item{
+    float:left;
+    text-align:center;
+    margin:20px 0 0 40px;
+}
+section#new .item .subject{
+    margin-top:10px;
+    color:#b81629;
+}
+section#new .item .comment{
+    margin-top:5px;
+    color:#888888;
+}
+section#new .item .price{
+    margin-top:5px;
+    font-weight:bold;
+}
