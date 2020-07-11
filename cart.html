@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- 21861104 이혜원 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/hw04_common.css">
+    <link rel="stylesheet" type="text/css" href="./css/hw04_detail.css">
+    <link rel="stylesheet" type="text/css" href="./css/hw04_cart.css">
+  </head>
+  <body>
+<!-- 헤더 -->
+  <header>
+    <section id="top">
+    <a id="logo" href="./hw04.html"><img src="./img04/logo.png" width="210" height="42"></a>
+    <div id="search">
+      <div id="search_title">SEARCH</div>
+      <div id="search_form"><input type="text"></div>
+      <div id="search_button"><img src="./img04/btn_search.png"></div>
+    </div>
+    <nav id="top_menu">
+      <ul>
+        <li class="green"><a href="#">로그인</a></li>
+        <li class="green"><a href="#">회원가입</a></li>
+        <li><a href="#">마이페이지</a></li>
+        <li><a href="#">이용안내</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+   </nav>
+   <!-- top menu -->
+   <div class="clear"></div>
+ </section>
+ <nav id="main_menu">
+   <ul>
+     <li><a href="detail.html">상세페이지</a></li>
+     <li><a href="cart.html">장바구니</a></li>
+     <li><a href="#">고객 갤러리</a></li>
+     <li><a href="#">주문배송</a></li>
+     <li><a href="#">자주 하는 질문</a></li>
+   </ul>
+ </nav>
+</header> <!-- header -->
+
+
+<section id="main">
+  <aside id="left">
+      <div id="cat_title">
+         CATEGORY MENU
+      </div>
+        <ul>
+          <li>버블 밀크티</li>
+          <li>버블 라떼</li>
+          <li>목장 생요거트</li>
+          <li>프리미엄 하동녹차</li>
+          <li>버블쉐이크</li>
+          <li>버블스무디</li>
+          <li>버블 에이드&소다</li>
+          <li>스페셜 버블티</li>
+          <li>스트레이트 티</li>
+          <li>과일주스 버블티</li>
+          <li>호주에서 온 생과일</li>
+        </ul>
+        <div id="customer">
+          <img src="./img04/customer.png">
+        </div>
+      </aside>
+              <section id="right">
+                <h2 id="cart_title">
+                <span>SHOPPING CART</span>장바구니
+              </h2>
+              <div id="process">
+                <img src="./img04/process.png">
+              </div>
+
+              <table>
+                <tr class="title">
+                  <th>선택</th>
+                  <th>상품명</th>
+                  <th>판매가</th>
+                  <th>수량</th>
+                  <th>포인트</th>
+                  <th>배송비</th>
+                  <th>합계</th>
+                </tr>
+
+                <tr class="items">
+                  <td class="col1"><input type="checkbox"></td>
+                  <td class="col2">
+                  [버블라떼] 초코버블티
+                  </td>
+                  <td class="col3">3,500원</td>
+                  <td class="col4"><input type="checkbox">
+                    <button>수정</button>
+                    </td>
+                  <td class="col5">3.5P</td>
+                  <td class="col6">3,000원</td>
+                  <td class="col7">6,500원</td>
+                </tr>
+
+                <tr class="items">
+                  <td class="col1"><input type="checkbox"></td>
+                  <td class="col2">
+                  [버블 밀크티] 얼그레이 밀크티
+                  </td>
+                  <td class="col3">3,200원</td>
+                  <td class="col4"><input type="checkbox">
+                    <button>수정</button>
+                    </td>
+                  <td class="col5">3.2P</td>
+                  <td class="col6">무료</td>
+                  <td class="col7">3,200원</td>
+                </tr>
+
+                <tr class="total_price">
+                  <td colspan="7">
+                    [상품구매금액]: 6,700원 + [배송비]: 3,000원 = <span>9,700원</span>
+                  </td>
+                  </tr>
+                  <tr class="order_status_box">
+                    <td colspan="7">
+                      <div class="order_status">
+                        <p><span>고객님의 총 주문 금액입니다</span></p>
+                        <div>
+                          <ul>
+                            <li class="col1">[상품 구매 금액]</li>
+                            <li class="col2">6,700원</li>
+                          </ul>
+
+                          <ul>
+                            <li class="col1">배송비</li>
+                            <li class="col2">3,000원</li>
+                          </ul>
+
+                          <ul>
+                            <li class="col1">총 주문 합계 금액</li>
+                            <li class="col2">9,700‬원</li>
+                          </ul>
+                        </div>
+                      </div>
+                      </td>
+                      </tr>
+              </table>
+
+              <ul id="order_buttons">
+                <li><img src="./img04/order_button1.png"></li>
+                <li><img src="./img04/order_button2.png"></li>
+                <li><img src="./img04/order_button3.png"></li>
+                <li><img src="./img04/order_button4.png"></li>
+                <li><img src="./img04/order_button5.png"></li>
+                <li><img src="./img04/order_button6.png"></li>
+              </ul>
+              </section>
+              <div class="clear"></div><!--우측아이디-->
+              </section>
+
+
+
+
+<footer>
+  <section id="footer_menu_box">
+    <nav id="footer_menu">
+      <ul>
+        <li><a href="#">회사소개<a></li>
+        <li><a href="#">이용안내<a></li>
+        <li><a href="#">장바구니<a></li>
+        <li><a href="#">주문조회<a></li>
+        <li><a href="#">적립금<a></li>
+        <li><a href="#">이용약관<a></li>
+        <li><a href="#">개인정보보호정책<a></li>
+        <li><a href="#">고객센터<a></li>
+      </ul>
+    </nav>
+  </section><!-- section footer_menu_box -->
+  <section id="footer_box">
+    <div id="footer_logo">
+      <img src="./img04/footer_logo.jpg" >
+    </div>
+    <div id="address">
+      <img src="./img04/address.png" width="600">
+    </div>
+    <div id="footer_banner">
+      <img src="./img04/footer_banner_01.jpg" width="80">
+    </div>
+  </section><!-- section footer_box -->
+</footer>
+  </body>
+</html>
